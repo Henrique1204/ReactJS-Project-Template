@@ -1,1 +1,1 @@
-# Meu Template para Criação de Projetos usando ReactJS, TypeScript e Styled-Components.
+# Estrutura base para Projetos com ReactJS e TypeScript.
