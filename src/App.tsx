@@ -1,7 +1,8 @@
 import React from 'react';
 import { ThemeProvider, createGlobalStyle } from 'styled-components';
 
-import theme from './Core/Assets/theme';
+import theme from 'Assets/theme';
+import Routes from './routes';
 
 const GlobalStyle = createGlobalStyle`
   *,
@@ -52,13 +53,15 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 const App: React.FC = () => {
-  return (
-    <>
-      <GlobalStyle />
+	return (
+		<>
+			<GlobalStyle />
 
-      <ThemeProvider theme={theme}></ThemeProvider>
-    </>
-  );
+			<ThemeProvider theme={theme}>
+				<Routes />
+			</ThemeProvider>
+		</>
+	);
 };
 
 export default App;

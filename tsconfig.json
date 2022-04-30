@@ -18,9 +18,24 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "downlevelIteration": true,
+    "baseUrl": "./src",
+    "types": [
+      "@types/jest",
+      "@types/node"
+    ],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/@types"
+    ]
   },
   "include": [
-    "src"
+    "**/*.*",
+    "**/*.svg"
+  ],
+  "extends": "./tsconfig.paths.json",
+  "exclude": [
+    "**/*.test.*"
   ]
 }
