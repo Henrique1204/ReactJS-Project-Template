@@ -23,12 +23,12 @@ import React from 'react';
 
 import * as Styles from './index.styled.ts';
 
-interface IMyComponentProps {
+export interface IMyComponentProps extends React.IDefaultProps {
     prop1: string;
     prop2: string;
 }
 
-const MyComponent: React.IComponent<IMyComponentProps> = ({
+const MyComponent: React.FC<IMyComponentProps> = ({
     testId = "default-id",
     prop1,
     prop2
