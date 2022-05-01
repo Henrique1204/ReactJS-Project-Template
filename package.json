@@ -23,7 +23,8 @@
 		"test": "jest --coverage=false",
 		"eject": "react-scripts eject",
 		"clear-cache": "rm -Rf node_modules/.cache .docz",
-		"docs": "yarn clear-cache && docz dev -p 4000",
+		"docs": "docz dev -p 4000",
+		"docs:clear": "npm run clear-cache && docz dev -p 4000",
 		"test:clear": "jest --clearCache",
 		"test:silent": "jest --coverage=false --watchAll --silent --noStackTrace",
 		"test:coverage": "jest --coverage --silent --noStackTrace"
