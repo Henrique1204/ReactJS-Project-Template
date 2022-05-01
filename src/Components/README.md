@@ -4,13 +4,13 @@
 
 ## Padrões de Desenvolvimento.
 
-- Os contextos devem ser separados por pastas e devem ser nomeadas com `PascalCase`.
+- Os componentes devem ser separados por pastas e devem ser nomeadas com `PascalCase`.
 
 - Cada pasta deverá conter os seguintes arquivos `index.tsx`, `index.mdx`, `index.styled.ts`, `index.test.tsx`.
 
 - Pode conter sub componentes para auxiliar na componentização/criação do componente.
 
-- Após a criação do componente deve importar e exportar ele no index.ts na raiz da pasta componentes, a ordem de importação deve ser alfabética. 
+- Após a criação do componente deve importar e exportar ele no index.ts na raiz da pasta componentes, a ordem de importação deve ser alfabética.
 
 ## Exemplos de Arquivos
 
@@ -92,6 +92,7 @@ export const Container = styled.div<IContainerProps>`
     ...
 `;
 ```
+
 As tipagens devem ser exportadas para caso precise ser reutilizadas na tipagem das props do componente principal.
 
 ### `index.test.tsx` (Testes unitários).
