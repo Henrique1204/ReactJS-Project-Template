@@ -35,7 +35,4 @@
     "**/*.svg"
   ],
   "extends": "./tsconfig.paths.json",
-  "exclude": [
-    "**/*.test.*"
-  ]
 }
