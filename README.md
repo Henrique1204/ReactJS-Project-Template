@@ -30,8 +30,6 @@ No diretório raiz do projeto:
 
 ### `npm start` ou `yarn start`
 
-**Nota: é preciso ter criado o .env seguindo os padrões do .env.example pra evitar erros com dependências!**
-
 Inicia o projeto em modo de desenvolvimento.
 
 O projeto será aberto na url [http://localhost:3000](http://localhost:3000) dentro do navegador.
