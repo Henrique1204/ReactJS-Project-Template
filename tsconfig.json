@@ -34,5 +34,5 @@
     "**/*.*",
     "**/*.svg"
   ],
-  "extends": "./tsconfig.paths.json",
+  "extends": "./tsconfig.paths.json"
 }

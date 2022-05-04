@@ -6,7 +6,7 @@ export { default as mixins } from './mixins';
 
 export const primary = {
 	main: '#1177CC',
-	dark: '#3172D2',
+	dark: '#265CAC',
 	background: '#161925',
 };
 
