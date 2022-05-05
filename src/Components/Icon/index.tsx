@@ -15,7 +15,7 @@ const Icon: React.FC<IICon> = ({
 	...props
 }) => {
 	return (
-		<Styles.Container {...props} data-testid={testId}>
+		<Styles.Container {...props} data-testid={testId} className={className}>
 			{IconsList[icon]}
 		</Styles.Container>
 	);
