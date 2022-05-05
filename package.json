@@ -1,1 +1,62 @@
-{"name":"project-model-react-ts","version":"0.1.0","private":true,"dependencies":{"@testing-library/jest-dom":"^5.16.4","@testing-library/react":"^13.2.0","@testing-library/user-event":"^13.5.0","@types/jest":"^27.5.0","@types/node":"^16.11.33","@types/react":"^18.0.8","@types/react-dom":"^18.0.3","react":"^18.1.0","react-dom":"^18.1.0","react-router-dom":"^6.3.0","react-scripts":"5.0.1","styled-components":"^5.3.5","typescript":"^4.6.4","web-vitals":"^2.1.4"},"scripts":{"start":"craco start","build":"craco build","test":"jest --coverage=false","eject":"react-scripts eject","clear-cache":"rm -Rf node_modules/.cache .docz","docs":"docz dev --typescript -p 4000","docs:clear":"npm run clear-cache && docz dev --typescript -p 4000","test:clear":"jest --clearCache","test:silent":"jest --coverage=false --watchAll --silent --noStackTrace","test:coverage":"jest --coverage --silent --noStackTrace"},"browserslist":{"production":[">0.2%","not dead","not op_mini all"],"development":["last 1 chrome version","last 1 firefox version","last 1 safari version"]},"devDependencies":{"@craco/craco":"^6.4.3","@emotion/core":"^10.1.1","@testing-library/dom":"^8.13.0","@types/styled-components":"^5.1.25","babel-jest":"^28.0.3","babel-plugin-transform-inline-environment-variables":"^0.4.3","docz":"^2.4.0","eslint":"^7.32.0","fetch-mock":"^9.11.0","jest":"^28.0.3","jest-environment-jsdom":"^28.0.2","ts-jest":"^28.0.1"},"resolutions":{"remark-mdx":"1.6.22"}}
+{
+	"name": "project-model-react-ts",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@testing-library/jest-dom": "^5.16.4",
+		"@testing-library/react": "^13.2.0",
+		"@testing-library/user-event": "^13.5.0",
+		"@types/jest": "^27.5.0",
+		"@types/node": "^16.11.33",
+		"@types/react": "^18.0.8",
+		"@types/react-dom": "^18.0.3",
+		"react": "^18.1.0",
+		"react-dom": "^18.1.0",
+		"react-router-dom": "^6.3.0",
+		"react-scripts": "5.0.1",
+		"styled-components": "^5.3.5",
+		"typescript": "^4.6.4",
+		"web-vitals": "^2.1.4"
+	},
+	"scripts": {
+		"start": "craco start",
+		"build": "craco build",
+		"test": "jest --coverage=false",
+		"eject": "react-scripts eject",
+		"clear-cache": "rm -Rf node_modules/.cache .docz",
+		"docs": "docz dev --typescript -p 4000",
+		"docs:clear": "npm run clear-cache && docz dev --typescript -p 4000",
+		"test:clear": "jest --clearCache",
+		"test:silent": "jest --coverage=false --watchAll --silent --noStackTrace",
+		"test:coverage": "jest --coverage --silent --noStackTrace"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@craco/craco": "^6.4.3",
+		"@emotion/core": "^10.1.1",
+		"@testing-library/dom": "^8.13.0",
+		"@types/styled-components": "^5.1.25",
+		"babel-jest": "^28.0.3",
+		"babel-plugin-transform-inline-environment-variables": "^0.4.3",
+		"docz": "^2.4.0",
+		"eslint": "^7.32.0",
+		"fetch-mock": "^9.11.0",
+		"jest": "^28.0.3",
+		"jest-environment-jsdom": "^28.0.2",
+		"ts-jest": "^28.0.1"
+	},
+	"resolutions": {
+		"remark-mdx": "1.6.22"
+	}
+}
