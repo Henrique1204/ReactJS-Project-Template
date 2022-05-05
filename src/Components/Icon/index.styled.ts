@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 import { ColorsEnum } from 'Types/styled-components/themeEnum';
 
 export interface IContainerProps {
-	size: number;
+	size?: number;
 	paletteColors?: ColorsEnum;
 	color?: string;
 }

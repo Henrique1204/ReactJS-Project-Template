@@ -5,9 +5,9 @@ import LinkedinIcon from './linkedin';
 import NpmIcon from './npm';
 
 const IconsList = {
-	'github-icon': <GithubIcon />,
-	'linkedin-icon': <LinkedinIcon />,
-	'npm-icon': <NpmIcon />,
+	'github-icon': <GithubIcon testId='github-icon' />,
+	'linkedin-icon': <LinkedinIcon testId='linkedin-icon' />,
+	'npm-icon': <NpmIcon testId='npm-icon' />,
 };
 
 export type IconsListType = typeof IconsList;
