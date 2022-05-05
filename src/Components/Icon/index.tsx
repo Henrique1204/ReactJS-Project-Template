@@ -4,11 +4,11 @@ import IconsList, { IconsListEnum } from 'Assets/icons';
 
 import * as Styles from './index.styled';
 
-export interface IICon extends Styles.IContainerProps {
+export interface IICon extends React.IDefaultProps, Styles.IContainerProps {
 	icon: IconsListEnum;
 }
 
-const Icon: React.FC<IICon & React.IDefaultProps> = ({
+const Icon: React.FC<IICon> = ({
 	testId = 'icon',
 	className = 'icon',
 	icon,
