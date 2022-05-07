@@ -4,6 +4,8 @@ Esse projeto foi criado utilizando como base no [Create React App](https://githu
 
 E personalizado por [@henrique1024](https://github.com/Henrique1204/my-cra-template).
 
+Link para [NPM](https://www.npmjs.com/package/@henrique1204/create-react-app).
+
 ## Dependências usadas no projeto.
 
 ### `Styled Components`
@@ -103,3 +105,5 @@ A documentação será aberta na url [http://localhost:4000](http://localhost:40
 O projeto contém mais informações em outros `readmes` dentro das pastas de estrutura do projeto.
 
 Esse projeto é algo pessoal, infelizmente por isso não temos um documentação ou outra fonte de guia para se trabalhar com ele, porém ele foi criado apenas para facilitar a criação da estrutura base dos projetos, daqui pra frente é livre a utilização e modificação deste projeto assim como você queira.
+
+Exemplo da estrutura criada [aqui](https://github.com/Henrique1204/project-model-react-ts).
